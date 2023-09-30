@@ -1,0 +1,297 @@
+export const Header: React.FC = () => {
+  return (
+    <header>
+      <header-wrap>
+        <header-left>
+          <img src=""" />
+          <menu>
+            <item>
+              <Text>Тексты</Text>
+            </item>
+            <item>
+              <Text>Митапы</Text>
+            </item>
+            <item>
+              <Text>Figma</Text>
+            </item>
+            <item>
+              <Text>Заметки</Text>
+            </item>
+            <item>
+              <Text>Дайджест</Text>
+            </item>
+            <item>
+              <vuesax/linear/search-normal>
+                <vuesax/linear/search-normal>
+                  <img src=""" />
+                </vuesax/linear/search-normal>
+              </vuesax/linear/search-normal>
+              <Text>Поиск</Text>
+            </item>
+          </menu>
+        </header-left>
+        <header-right>
+          <social>
+            <Text>youtube</Text>
+            <Text>vk</Text>
+            <Text>telegram</Text>
+            <Text>dprofile</Text>
+          </social>
+          <vuesax>
+            <vuesax/linear/sun>
+              <vuesax/linear/sun>
+                <img src=""" />
+              </vuesax/linear/sun>
+            </vuesax/linear/sun>
+          </vuesax>
+        </header-right>
+      </header-wrap>
+      <devider />
+    </header>
+  )
+}
+
+const header = styled.div`
+  width: 1200px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px 0px 24px;
+  gap: 16px;
+  background-color: #0b1328;
+`
+const header-wrap = styled.div`
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`
+const header-left = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+`
+const img1 = styled.div`
+  width: 111px;
+  height: 41px;
+  height: 41px;
+  width: 111px;
+`
+const menu = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+`
+const item = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+`
+const text2 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const item = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+`
+const text3 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const item = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+`
+const text4 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const item = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+`
+const text5 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const item = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+`
+const text6 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const item = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+`
+const vuesax/linear/search-normal = styled.div`
+  width: 20px;
+  height: 20px;
+  height: 20px;
+  width: 20px;
+`
+const vuesax/linear/search-normal = styled.div`
+  height: 20px;
+  width: 20px;
+`
+const img7 = styled.div`
+  height: 20px;
+  width: 20px;
+`
+const text8 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const header-right = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 48px;
+`
+const social = styled.div`
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+`
+const text9 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const text10 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const text11 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const text12 = styled.div`
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+`
+const vuesax = styled.div`
+  width: 20px;
+  height: 20px;
+  height: 20px;
+  width: 20px;
+`
+const vuesax/linear/sun = styled.div`
+  width: 20px;
+  height: 20px;
+  height: 20px;
+  width: 20px;
+`
+const vuesax/linear/sun = styled.div`
+  height: 20px;
+  width: 20px;
+`
+const img13 = styled.div`
+  height: 20px;
+  width: 20px;
+`
+const devider = styled.div`
+  height: 0px;
+  width: 1152px;
+  border: 1px solid #20283e;
+`

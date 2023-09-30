@@ -1,0 +1,297 @@
+export const Header: React.FC = () => {
+  return (
+    <div className="header">
+      <div className="header--wrap">
+        <div className="header--left">
+          <img src="" />
+          <div className="menu">
+            <div className="item">
+              <p className="text-2">Тексты</p>
+            </div>
+            <div className="item">
+              <p className="text-3">Митапы</p>
+            </div>
+            <div className="item">
+              <p className="text-4">Figma</p>
+            </div>
+            <div className="item">
+              <p className="text-5">Заметки</p>
+            </div>
+            <div className="item">
+              <p className="text-6">Дайджест</p>
+            </div>
+            <div className="item">
+              <div className="vuesax-/linear-/search--normal">
+                <div className="vuesax-/linear-/search--normal">
+                  <img src="" />
+                </div>
+              </div>
+              <p className="text-8">Поиск</p>
+            </div>
+          </div>
+        </div>
+        <div className="header--right">
+          <div className="social">
+            <p className="text-9">youtube</p>
+            <p className="text-1-0">vk</p>
+            <p className="text-1-1">telegram</p>
+            <p className="text-1-2">dprofile</p>
+          </div>
+          <div className="vuesax">
+            <div className="vuesax-/linear-/sun">
+              <div className="vuesax-/linear-/sun">
+                <img src="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="devider" />
+    </div>
+  )
+}
+
+.header {
+  width: 1200px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px 0px 24px;
+  gap: 16px;
+  background-color: #0b1328;
+}
+.header--wrap {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header--left {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.img-1 {
+  width: 111px;
+  height: 41px;
+  height: 41px;
+  width: 111px;
+}
+.menu {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+.item {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.text-2 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.item {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.text-3 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.item {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.text-4 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.item {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.text-5 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.item {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.text-6 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.item {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+.vuesax-/linear-/search--normal {
+  width: 20px;
+  height: 20px;
+  height: 20px;
+  width: 20px;
+}
+.vuesax-/linear-/search--normal {
+  height: 20px;
+  width: 20px;
+}
+.img-7 {
+  height: 20px;
+  width: 20px;
+}
+.text-8 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.header--right {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 48px;
+}
+.social {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+.text-9 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.text-1-0 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.text-1-1 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.text-1-2 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Gilroy;
+  margin-block: 0px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.vuesax {
+  width: 20px;
+  height: 20px;
+  height: 20px;
+  width: 20px;
+}
+.vuesax-/linear-/sun {
+  width: 20px;
+  height: 20px;
+  height: 20px;
+  width: 20px;
+}
+.vuesax-/linear-/sun {
+  height: 20px;
+  width: 20px;
+}
+.img-1-3 {
+  height: 20px;
+  width: 20px;
+}
+.devider {
+  height: 0px;
+  width: 1152px;
+  border: 1px solid #20283e;
+}
