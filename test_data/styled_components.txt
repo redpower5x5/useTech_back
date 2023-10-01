@@ -1,57 +1,59 @@
 export const Header: React.FC = () => {
   return (
-    <header>
-      <header-wrap>
-        <header-left>
-          <img src=""" />
-          <menu>
-            <item>
-              <Text>Тексты</Text>
-            </item>
-            <item>
-              <Text>Митапы</Text>
-            </item>
-            <item>
-              <Text>Figma</Text>
-            </item>
-            <item>
-              <Text>Заметки</Text>
-            </item>
-            <item>
-              <Text>Дайджест</Text>
-            </item>
-            <item>
-              <vuesax/linear/search-normal>
-                <vuesax/linear/search-normal>
-                  <img src=""" />
-                </vuesax/linear/search-normal>
-              </vuesax/linear/search-normal>
-              <Text>Поиск</Text>
-            </item>
-          </menu>
-        </header-left>
-        <header-right>
-          <social>
-            <Text>youtube</Text>
-            <Text>vk</Text>
-            <Text>telegram</Text>
-            <Text>dprofile</Text>
-          </social>
-          <vuesax>
-            <vuesax/linear/sun>
-              <vuesax/linear/sun>
-                <img src=""" />
-              </vuesax/linear/sun>
-            </vuesax/linear/sun>
-          </vuesax>
-        </header-right>
-      </header-wrap>
-      <devider />
-    </header>
+    <Styled.Header>
+      <Styled.HeaderWrap>
+        <Styled.HeaderLeft>
+          <img src="" />
+          <Styled.Menu>
+            <Styled.Item>
+              <Styled.Text2>Тексты</Styled.Text2>
+            </Styled.Item>
+            <Styled.Item>
+              <Styled.Text3>Митапы</Styled.Text3>
+            </Styled.Item>
+            <Styled.Item>
+              <Styled.Text4>Figma</Styled.Text4>
+            </Styled.Item>
+            <Styled.Item>
+              <Styled.Text5>Заметки</Styled.Text5>
+            </Styled.Item>
+            <Styled.Item>
+              <Styled.Text6>Дайджест</Styled.Text6>
+            </Styled.Item>
+            <Styled.Item>
+              <Styled.VuesaxLinearSearchNormal>
+                <Styled.VuesaxLinearSearchNormal>
+                  <img src="" />
+                </Styled.VuesaxLinearSearchNormal>
+              </Styled.VuesaxLinearSearchNormal>
+              <Styled.Text8>Поиск</Styled.Text8>
+            </Styled.Item>
+          </Styled.Menu>
+        </Styled.HeaderLeft>
+        <Styled.HeaderRight>
+          <Styled.Social>
+            <Styled.Text9>youtube</Styled.Text9>
+            <Styled.Text10>vk</Styled.Text10>
+            <Styled.Text11>telegram</Styled.Text11>
+            <Styled.Text12>dprofile</Styled.Text12>
+          </Styled.Social>
+          <Styled.Vuesax>
+            <Styled.VuesaxLinearSun>
+              <Styled.VuesaxLinearSun>
+                <img src="" />
+              </Styled.VuesaxLinearSun>
+            </Styled.VuesaxLinearSun>
+          </Styled.Vuesax>
+        </Styled.HeaderRight>
+      </Styled.HeaderWrap>
+      <Styled.Devider />
+    </Styled.Header>
   )
 }
 
-const header = styled.div`
+import styled from "styled-components"
+
+export const Header = styled.div`
   width: 1200px;
   height: fit-content;
   display: flex;
@@ -62,7 +64,7 @@ const header = styled.div`
   gap: 16px;
   background-color: #0b1328;
 `
-const header-wrap = styled.div`
+export const HeaderWrap = styled.div`
   width: 100%;
   height: fit-content;
   display: flex;
@@ -70,7 +72,7 @@ const header-wrap = styled.div`
   justify-content: space-between;
   align-items: center;
 `
-const header-left = styled.div`
+export const HeaderLeft = styled.div`
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -79,13 +81,13 @@ const header-left = styled.div`
   align-items: center;
   gap: 40px;
 `
-const img1 = styled.div`
+export const Img1 = styled.div`
   width: 111px;
   height: 41px;
   height: 41px;
   width: 111px;
 `
-const menu = styled.div`
+export const Menu = styled.div`
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -94,7 +96,7 @@ const menu = styled.div`
   align-items: flex-start;
   gap: 24px;
 `
-const item = styled.div`
+export const Item = styled.div`
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -103,7 +105,7 @@ const item = styled.div`
   align-items: flex-start;
   gap: 8px;
 `
-const text2 = styled.div`
+export const Text2 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -112,16 +114,7 @@ const text2 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const item = styled.div`
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-`
-const text3 = styled.div`
+export const Text3 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -130,16 +123,7 @@ const text3 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const item = styled.div`
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-`
-const text4 = styled.div`
+export const Text4 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -148,16 +132,7 @@ const text4 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const item = styled.div`
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-`
-const text5 = styled.div`
+export const Text5 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -166,16 +141,7 @@ const text5 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const item = styled.div`
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-`
-const text6 = styled.div`
+export const Text6 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -184,30 +150,17 @@ const text6 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const item = styled.div`
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 8px;
-`
-const vuesax/linear/search-normal = styled.div`
+export const VuesaxLinearSearchNormal = styled.div`
   width: 20px;
   height: 20px;
   height: 20px;
   width: 20px;
 `
-const vuesax/linear/search-normal = styled.div`
+export const Img7 = styled.div`
   height: 20px;
   width: 20px;
 `
-const img7 = styled.div`
-  height: 20px;
-  width: 20px;
-`
-const text8 = styled.div`
+export const Text8 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -216,7 +169,7 @@ const text8 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const header-right = styled.div`
+export const HeaderRight = styled.div`
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -225,7 +178,7 @@ const header-right = styled.div`
   align-items: flex-start;
   gap: 48px;
 `
-const social = styled.div`
+export const Social = styled.div`
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -234,7 +187,7 @@ const social = styled.div`
   align-items: flex-start;
   gap: 16px;
 `
-const text9 = styled.div`
+export const Text9 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -243,7 +196,7 @@ const text9 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const text10 = styled.div`
+export const Text10 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -252,7 +205,7 @@ const text10 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const text11 = styled.div`
+export const Text11 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -261,7 +214,7 @@ const text11 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const text12 = styled.div`
+export const Text12 = styled.div`
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -270,27 +223,23 @@ const text12 = styled.div`
   line-height: 20px;
   color: #ffffff;
 `
-const vuesax = styled.div`
+export const Vuesax = styled.div`
   width: 20px;
   height: 20px;
   height: 20px;
   width: 20px;
 `
-const vuesax/linear/sun = styled.div`
+export const VuesaxLinearSun = styled.div`
   width: 20px;
   height: 20px;
   height: 20px;
   width: 20px;
 `
-const vuesax/linear/sun = styled.div`
+export const Img13 = styled.div`
   height: 20px;
   width: 20px;
 `
-const img13 = styled.div`
-  height: 20px;
-  width: 20px;
-`
-const devider = styled.div`
+export const Devider = styled.div`
   height: 0px;
   width: 1152px;
   border: 1px solid #20283e;

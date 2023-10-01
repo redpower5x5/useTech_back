@@ -2,3 +2,4 @@ fastapi
 openai
 python-multipart
 uvicorn
+python-dotenv==1.0.0

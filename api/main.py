@@ -1,9 +1,12 @@
 from typing import Union, Annotated
-
+from pydantic import BaseModel
 from fastapi import FastAPI, Form
 
 app = FastAPI()
 
+class Compile_data(BaseModel):
+    style: str
+    data: str
 
 @app.get("/")
 def read_root():
@@ -15,5 +18,6 @@ def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
 
 @app.post("/compile/")
-async def compile_project(code_style: Annotated[str, Form()], data: Annotated[str, Form()]):
-    return {"data": data}
+async def compile_project(compile_data: Compile_data):
+    print(compile_data.data)
+    return {"data": compile_data.data}

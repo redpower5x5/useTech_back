@@ -1,13 +1,11 @@
 import "./index.css";
-import { Socials } from "./components/Socials";
-import { SocialsCSS } from "./components/SocialsCSS";
+import { _BASE_CSS } from "./components/_BASE_CSS";
 
 function App() {
 
   return (
     <>
-      <Socials />
-      <SocialsCSS />
+      <_BASE_CSS />
     </>
   );
 }

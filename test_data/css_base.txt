@@ -3,7 +3,7 @@ export const Header: React.FC = () => {
     <div className="header">
       <div className="header--wrap">
         <div className="header--left">
-          <img src="" />
+          <img src="data:image/png;base64,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" />
           <div className="menu">
             <div className="item">
               <p className="text-2">Тексты</p>
@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
             <div className="item">
               <div className="vuesax-/linear-/search--normal">
                 <div className="vuesax-/linear-/search--normal">
-                  <img src="" />
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEXSURBVHgBtVQLFcIwDMxQMAcUBQwHk4CEScABOBkOwMFwMFAAKAAHIYHbW9d96Mq49+7tk+TatEmIJkbUZ2DmWB5roRHOhXfhWRlF0Y18oULCrfDBNa7cRC40PmLGCtag1LEnwr21SOojNuzY9NUskj6nSsyQB3A0VUzsGjOkkdEIaCaI27mGg65EAZC4ohWLs8gpABK3wS61tGiG/JUXCsMNz8VbEGK/4Gl/zFD1+tNQGJKWMA62pAB0XqhVNimNAAqcOy+0t0iHBcveZkCfPny6BV2Sf20GMa4t0cwVhtCG6wGi79vBDeBcDlyjrC6N65FWoO1idwYMDVh1yIRL+tSqloUO2aOU2snxK/C5oimArHb0D7wABJKQgO8WaJgAAAAASUVORK5CYII=" />
                 </div>
               </div>
               <p className="text-8">Поиск</p>
@@ -40,7 +40,7 @@ export const Header: React.FC = () => {
           <div className="vuesax">
             <div className="vuesax-/linear-/sun">
               <div className="vuesax-/linear-/sun">
-                <img src="" />
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEeSURBVHgBxVSBDYIwEHyMA+AE1g0YATdgBDaQDXQT4wS6AW6gTqAbwAb1PjliUwM80egnl5b27nu0/Yr8I7z3G6CUbwWS1QqZGhClgJvAdzE/iQjqIkuSZNEtgKYAOtEVOGO+5fwdzQ3fxdCKJfu6bw1RE9q/AxU5JZCJ4Ve2FFd0Gc7pmMZWLKErUlAMcHJycjEkPAJ7I68ecuXYb4bcBZpCueynnWbGRBegJFf3rJXxaMnV0ENSx8twtfQDh673tHk9joaEe+AkBuLoCdKd95Y7SMGOgioaT4MLv7MkyoJKqVgVcaU0UaW4MEdcy7p3WsurzhGaXMdIeQCnoJb1UK74Xvc5fHs9Rv7I+ag0rcLaG9/DudjiIK9L/Nt4AvvrXLCZQsiIAAAAAElFTkSuQmCC" />
               </div>
             </div>
           </div>
