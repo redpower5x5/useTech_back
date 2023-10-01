@@ -5,6 +5,7 @@ from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from generators.gen_simple_styled import GenStyledProject
 from generators.gen_simple_css import GenCSSProject
+from urllib.parse import unquote
 import uuid
 import base64
 import os
@@ -37,6 +38,7 @@ async def download_generated_zip(uuid: str):
 @app.post("/compile/")
 async def compile_project(compile_data: Compile_data):
     decoded = base64.b64decode(compile_data.data).decode("utf-8")
+    decoded = unquote(decoded)
     if compile_data.style == "css":
         gen = GenCSSProject(decoded)
         gen.insert_data_into_files()
