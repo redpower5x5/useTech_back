@@ -12,6 +12,8 @@
  ┗ 📂frontend
    ┗ 📜[файлы frontend]
 ```
+## Визуализация
+![Визуализация](https://github.com/redpower5x5/useTech_back/blob/master/imgs/image_2023-10-01_12-46-01.png?raw=true)
 
 ## Описание
 
